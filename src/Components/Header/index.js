@@ -37,7 +37,7 @@ const Header = (props) => {
           </li> */}
 
         <NavDropdown title="More" id="collasible-nav-dropdown" >
-          <NavDropdown.Item className="nlink" href="https://krushi-sampann.herokuapp.com/">Sell As Farmer</NavDropdown.Item>
+          <NavDropdown.Item className="nlink" href="https://krushisampann-farmers-app.herokuapp.com/">Sell As Farmer</NavDropdown.Item>
 
           <NavDropdown.Item ><Link className="nlink" to="/contracts">Upload Contracts </Link></NavDropdown.Item>
           <NavDropdown.Item ><Link className="nlink" to="uploadProd">Upload Requirements</Link></NavDropdown.Item>
@@ -58,7 +58,7 @@ const Header = (props) => {
         </li>
 
         <NavDropdown title="More" id="collasible-nav-dropdown">
-          <NavDropdown.Item className="nlink" href="https://krushi-sampann.herokuapp.com/">Sell As Farmer</NavDropdown.Item>
+          <NavDropdown.Item className="nlink" href="https://krushisampann-farmers-app.herokuapp.com/">Sell As Farmer</NavDropdown.Item>
           <NavDropdown.Item ><Link className="nlink" to="signin">Upload Requirements</Link></NavDropdown.Item>
         </NavDropdown>
       </>
